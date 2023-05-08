@@ -1,0 +1,155 @@
+.header-img {
+    width: 100%;
+}
+.line {
+  width: 100%;
+  height: 5px;
+  border-radius: 25px;
+  background-color: black;
+  box-shadow: 0px 4px 10px 0px #474747;
+}
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 138);
+  font-size: 2em;
+}
+.center {
+  text-align: center;
+}
+p {
+  text-align: right;
+  font-size: 1.3em;
+}
+ul li {
+  font-size: 1.3em;
+}
+.container {
+  margin: 20px;
+}
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+.list {
+  margin-bottom: 3em;
+}
+.img-container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.img-container img {
+  margin: 10px;
+}
+.img-container img:first-child {
+  float: left;
+  width: 50%;
+}
+.img-container img:last-child {
+  float: right;
+  width: 50%;
+}
+.flow-left {
+  float: left;
+  width: 50%;
+}
+.flow-right {
+  float: right;
+  width: 50%;
+}
+@media only screen and (max-width: 991px) {
+  .flow-right,
+  .flow-left {
+    float: none;
+    width: 100%;
+  }
+}
+
+/*table styles*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  white-space: nowrap;
+  margin: 0 auto 3em auto;
+}
+table td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+@media only screen and (min-width: 1200px) {
+  table .tg-0pky,
+  table .tg-blue {
+    padding: 1em 6em;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  table .tg-0pky,
+  table .tg-blue {
+    padding: 1em 6em;
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  table .tg-0pky,
+  table .tg-blue {
+    padding: 1em 2em;
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 568px) {
+  table .tg-0pky,
+  table .tg-blue {
+    padding: 4px;
+    font-size: 10px;
+  }
+}
+
+table th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+table .tg-0pky {
+  border-color: inherit;
+  text-align: center;
+  vertical-align: top;
+}
+table .tg-blue {
+  background-color: #b6c4ec;
+  border-color: inherit;
+  text-align: center;
+  vertical-align: top;
+}
+table .tg-blue-normal {
+  font-size: 13px;
+  padding: 1em;
+  background-color: #b6c4ec;
+  border-color: inherit;
+  text-align: center;
+  vertical-align: top;
+}
+table .tg-normal {
+  font-size: 13px;
+  padding: 1em;
+  border-color: inherit;
+  text-align: center;
+  vertical-align: top;
+}
+@media only screen and (max-width: 568px) {
+  table .tg-blue-normal,
+  table .tg-normal {
+    padding: 4px;
+    font-size: 10px;
+  }
+}
